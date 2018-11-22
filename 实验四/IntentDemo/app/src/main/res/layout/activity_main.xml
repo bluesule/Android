@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="371dp"
+        android:layout_height="503dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="144dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=""
+            tools:layout_editor_absoluteX="133dp"
+            tools:layout_editor_absoluteY="60dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="74dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="用户名"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="60dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="登录"
+            tools:layout_editor_absoluteX="123dp"
+            tools:layout_editor_absoluteY="129dp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
